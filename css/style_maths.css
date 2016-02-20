@@ -1,0 +1,100 @@
+body {
+    background-image: url("image-content1.jpg");
+}
+
+.page-header{
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.logo {
+    border-radius: 40%;
+    margin-left:190px ;
+}
+
+.navigation {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.navigation ul {
+    margin-top: 0;
+}
+
+.navigation li {
+    padding: 10px;
+    font-size:25px;
+    font-family:monospace;
+    letter-spacing:6px;
+    color: darkblue;
+    display: inline-block;
+    margin-top:10px ;
+
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #57819b;
+    transition: padding .4s;
+
+}
+
+.navigation li a:hover {
+    color: lightskyblue;
+    padding-left: 8px;
+}
+
+.gallery{
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.gallery a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic ", Georgia, Serif;
+    color: #4e7a02;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#first {
+    margin-right: 220px;
+}
+
+#question{
+    margin-left:350px;
+    margin-right:300px;
+    margin-top: 20px;
+    text-align:center;
+    font-size: 20px;
+    color: darkblue ;
+    font-family: "Calibri";
+}
+
+#hint{
+    margin-left:330px;
+    margin-right:300px;
+    text-align: center;
+    margin-top: -5px;
+    font-size: 27px;
+    color: darkblue ;
+    font-family: "Calibri";
+}
+
+
+#hide {
+    margin-left:580px;
+    margin-bottom: 20px;
+}
+
+#hide, #show {
+    height:40px;
+    width: 100px;
+    background-color: #E1E4E9;
+    box-shadow: 2px 2px #a9e6aa;
+}
