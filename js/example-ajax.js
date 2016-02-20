@@ -1,8 +1,8 @@
 $(document).ready(function () {
     $("#get").click(function () {
         $.ajax({
-            type: "GET", //rest Type
-            dataType: "json", //mispelled
+            type: "GET", 
+            dataType: "json", 
             url: "proba.json",
             async: false,
             contentType: "application/json; charset=utf-8",
