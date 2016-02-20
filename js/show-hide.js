@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $(".gallery").hide();
+    $("#hide").click(function(){
+        $(".gallery").fadeOut("slow")();
+    });
+    $("#show").click(function(){
+        $(".gallery").fadeIn('slow');
+    });
+});
